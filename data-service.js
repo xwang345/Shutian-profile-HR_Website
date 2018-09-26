@@ -1,10 +1,9 @@
-// Created by Xiaochen Wang
 
 // Installing "sequelize"
 const Sequelize = require('sequelize');
 
-var sequelize = new Sequelize('dd5eidm34bnp7s', 'kdxhpasqjtitca', '5d9f6d6137cc7da7b0e2e37b94032a131328fa003b0107bc4f93854037ae16c6', {
-    host: 'ec2-174-129-35-61.compute-1.amazonaws.com', //host
+var sequelize = new Sequelize('dekk2mslataiet', 'lzztyoctaczuqu', '2dda92e4c70cfb6e0078cdcc9ee9dd5b7395a835322d1f3c7467bb0fbd2025b7', {
+    host: 'ec2-54-235-86-226.compute-1.amazonaws.com', //host
     dialect: 'postgres',
     port: 5432,
     dialectOptions: { // change new database

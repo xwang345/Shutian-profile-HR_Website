@@ -21,7 +21,7 @@ var contentSchema = new Schema({
 });
 var Comment; // to be defined on new connection (see initialize)
 
-var dbURI = "mongodb://xwang345:Wxc111222@ds047950.mlab.com:47950/web322-a6"
+var dbURI = "mongodb://sxu2:(7XbgpSdT)@ds159641.mlab.com:59641/web322_a6"
 
 module.exports.initialize = () => {
     console.log("============================================");

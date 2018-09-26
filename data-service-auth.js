@@ -12,7 +12,7 @@ var userSchema = new Schema({
 });
 var Comment; // to be defined on new connection (see initialize)
 
-var dbURI = "mongodb://xwang345:Xlxc101302#@ds145395.mlab.com:45395/web322_a7"
+var dbURI = "mongodb://sxu2:(7XbgpSdT)@ds113853.mlab.com:13853/web322_a7"
 
 module.exports.initialize = () => {
     console.log("============================================");
